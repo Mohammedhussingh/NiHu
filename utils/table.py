@@ -31,6 +31,7 @@ class Seat:
 
 
 
+
 class Table:
 
 
@@ -48,12 +49,12 @@ class Table:
     
         while(True):
             Random_seat = random.randint(0, 3)
-            print(self.capacity)
+            
             if 0 <  self.capacity and self.seats[Random_seat].free :
                 self.seats[Random_seat]=New_comer
-                self.capacity-=1
-                print("done")
-                print(self.capacity)
+                self.capacity=self.capacity-1
+               
+                
                 return Random_seat
 
             elif 0<  self.capacity:
