@@ -4,7 +4,7 @@ import random
 class Openespace:
 
     def __init__(self) -> None:
-        self.tables=[None]*6
+        self.tables= [Table() for _ in range(6)] 
         self.number_of_tables=6
     
         pass 
@@ -25,15 +25,16 @@ class Openespace:
             Random_table = random.randint(0, 5)
 
             if self.tables[Random_table].has_free_spot():
-                seat_number=self.tables.assign_seat(name)
+                seat_number=self.tables[Random_table].assign_seat(name)
                 print (f"Assigned to table{ Random_table + 1 } on seat # {seat_number +1}")
                 return
             
             return
         return
     
-    
+
     def display(self)->None:
+      
 
         for table in range(6):
             print(f"on Table {table+1} set the folwoing people: /n ")
@@ -44,6 +45,14 @@ class Openespace:
    
     def store (file:str)->None:
         
-            
+            return
+    
+
+
+
+
+O1= Openespace()
+O1.organize("Hussain")
+O1.display()
 
 
