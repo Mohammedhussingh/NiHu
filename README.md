@@ -38,7 +38,9 @@ any other input  : terminiate the program
 
 ![Screenshot from 2024-10-25 15-53-32](https://github.com/user-attachments/assets/633fe8c4-65e4-4eb5-bfe1-8354b5fec27a)
 
+## Collaborators
 
+The project was made by Mohammedhussingh and NinaA99.
 
 ## Timeline
 
