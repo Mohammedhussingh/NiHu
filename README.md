@@ -17,7 +17,7 @@ Exports the current seating arrangement to an Excel file, making it easy to trac
 
 ## Installation
 
-**Python** 3.8+
+**Python**
 
 **Pandas library**
 
