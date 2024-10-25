@@ -34,7 +34,7 @@ option 2 : Store the names on the seats on the tables in an excel files and disp
 
 option 3 : Assign a specific person to a specific seat
 
-any other input  : terminiate the program
+any other input  : terminate the program
 
 ![Screenshot from 2024-10-25 15-53-32](https://github.com/user-attachments/assets/633fe8c4-65e4-4eb5-bfe1-8354b5fec27a)
 
