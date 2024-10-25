@@ -2,7 +2,7 @@ import pandas as pd
 from table import Table,Seat
 import random
 
-class Openespace:
+class Openspace:
     """A class that rapresents an openspace with 6 tables
     
     Attributes : 
@@ -22,6 +22,11 @@ class Openespace:
         self.number_of_tables=6
     
         pass 
+
+    def __str__(self) -> str:
+         """
+         Returns a string of the openspace seating arrangement.
+         """
 
 
 
@@ -58,6 +63,12 @@ class Openespace:
     def display(self) -> None:
         """
         Displays the repartition of the persons on the openspace in the tables and seats
+        
+        Parameters : 
+
+        -----------
+        tables : list
+            A list of Table objects that are representing the tables in the openspace
         """
 
         for table in range(6):
@@ -81,4 +92,4 @@ class Openespace:
         df = pd.DataFrame(data)
         df.to_excel(file, index=False)
 
-Openespace.store('Openespace_repartition.xlsx')
+Openespace.store('Openspace_repartition.xlsx')
