@@ -29,9 +29,13 @@ Exports the current seating arrangement to an Excel file, making it easy to trac
 from main.py, run the following options:
 
 option 1 : Assign the guests randomly to the seats on tables
+
 option 2 : Store the names on the seats on the tables in an excel files and display them
+
 option 3 : Assign a specific person to a specific seat
+
 any other input  : terminiate the program
+
 ![Screenshot from 2024-10-25 15-53-32](https://github.com/user-attachments/assets/633fe8c4-65e4-4eb5-bfe1-8354b5fec27a)
 
 
